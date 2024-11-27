@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "537531619594",
+    "project_id": "datascience-10eb0",
+    "storage_bucket": "datascience-10eb0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537531619594:android:13b4a088eaf64a825c02f3",
+        "android_client_info": {
+          "package_name": "com.example.ds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswqtsmsbR7M8cdxUmAubxOhiz740nZ2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

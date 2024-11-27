@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".SignInActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+android:orientation="vertical"
+    tools:ignore="UselessParent"
+    >
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/noun_stock_market_7391554"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:background="@drawable/round"
+        android:padding="16dp"
+        android:layout_margin="15dp"
+        android:id="@+id/username_input"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+       /> 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:background="@drawable/round"
+        android:padding="16dp"
+        android:layout_margin="15dp"
+        android:id="@+id/password_input"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sign IN"
+        android:textSize="30dp"
+        android:id="@+id/signbtn"
+        android:textColorHint="@color/black"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OR"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sign in with google"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:ignore="RtlHardcoded" />
+
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:padding="16dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/icons8_google"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New user SignUp?"
+        android:id="@+id/textview"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>
+</RelativeLayout>
