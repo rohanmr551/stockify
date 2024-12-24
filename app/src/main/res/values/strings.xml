@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ds</string>
+    <string name="graph_4">\n</string>
+    <string name="graph_2" />
+    <string name="graph_3" />
+    <string name="graph_1" />
 </resources>
